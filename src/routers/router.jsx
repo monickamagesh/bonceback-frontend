@@ -39,8 +39,15 @@ const router = createBrowserRouter([
           // patient routes
           //selection
           { path: "", element: <ByPain /> },
-          { path: "pain", element: <ByPain /> },
-          { path: "specialization", element: <BySpecialization /> },
+          { path: "pain", element: <ByPain />,
+            children: [
+              { path: "top-therapist", element: <TopTherapist /> },
+            ]
+            },
+          { path: "specialization", element: <BySpecialization />,
+            children: [
+              { path: "top-therapist", element: <TopTherapist /> },
+            ] },
           { path: "top-therapist", element: <TopTherapist /> },
 
           //profile
@@ -69,8 +76,14 @@ const router = createBrowserRouter([
         children: [
           //selection
           { path: "", element: <ByPain /> },
-          { path: "pain", element: <ByPain /> },
-          { path: "specialization", element: <BySpecialization /> },
+          { path: "pain", element: <ByPain />,
+            children: [
+              { path: "top-therapist", element: <TopTherapist /> },
+            ] },
+          { path: "specialization", element: <BySpecialization />,
+            children: [
+              { path: "top-therapist", element: <TopTherapist /> },
+            ] },
           { path: "top-therapist", element: <TopTherapist /> },
 
           //profile
