@@ -6,7 +6,8 @@ const PainCard = ({ image, title }) => {
     <div className="pain-card">
       <img src={image} alt={title} className="pain-image" />
       <h3 className="pain-title">{title}</h3>
-      <button className="view-btn">View Therapists</button>
+      <Link to="/top-therapist"><button className="view-btn">View Therapists</button></Link>
+      
     </div>
   );
 };
