@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap');
+/* Parent card styling */
+.reslib-parent-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    width: 1080px;
+  }
+  
+  /* Title and search bar */
+  .reslib-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .reslib-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .reslib-search {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Main card grid */
+  .reslib-main-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  /* Child card */
+  .reslib-child-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .reslib-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .reslib-video-title {
+    font-size: 16px;
+    color: #484848;
+    margin-bottom: 10px;
+  }
+  
+  /* Highlighted duration and time */
+  .reslib-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .reslib-duration,
+  .reslib-time {
+    color: #6a1b9a;
+  }
+  
+  /* Full-width button */
+  .reslib-play-btn {
+    background-color: #D9B0F1;
+    color: #6a1b9a;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .reslib-play-btn:hover {
+    background-color: #8e24aa;
+  }
+  

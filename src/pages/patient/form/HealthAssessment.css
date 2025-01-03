@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap');
+
+.form-container {
+    max-width: 1080px;
+    margin: 0 auto;
+    font-family: "IBM Plex Sans", sans-serif;
+    background-color: #ffffff;
+    padding: 32px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32px;
+}
+
+.form-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #6a00a7;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.form-question {
+    color: #484848;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 32px;
+    width: 100%;
+}
+
+.form-button-question {
+    color: #484848;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    width: 100%;
+}
+
+.form-question label {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 8px;
+    
+}
+
+.form-input {
+    width: 100%;
+    height: 36px;
+    padding: 12px 16px;
+    border-radius: 4px;
+    border: 1px solid #cdcdcd;
+    background: #f0f0f0;
+    font-size: 16px;
+    margin-top: 10px;
+    font-family: "IBM Plex Sans", sans-serif;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+
+.radio-group,
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 32px;
+    transition: 0.3s;
+}
+
+.radio-group input[type="radio"],
+.checkbox-group input[type="checkbox"] {
+    appearance: none; 
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    width: 30px; 
+    height: 30px;  
+    border-radius: 4px; 
+    outline: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    margin: 0;
+}
+.radio-custom, .checkbox-custom {
+    margin-right: 8px;
+  }
+
+.radio-group input[type="radio"]:checked,
+.checkbox-group input[type="checkbox"]:checked {
+    background-color: #6A00A7;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+}
+
+.radio-group input[type="radio"]:focus,
+.checkbox-group input[type="checkbox"]:focus {
+    box-shadow: 0 0 0 2px white;
+    background-color: #6A00A7;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+}
+
+
+.radio-group input[type="radio"]:hover,
+.checkbox-group input[type="checkbox"]:hover {
+    background-color: var(--primary-color-light-active);  
+    transition: 0.3s;
+}
+
+.formlabel {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.radio-group label,
+.checkbox-group label {
+    display: flex;
+    align-items: center;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.radio-group input,
+.checkbox-group input {
+    margin-right: 8px;
+}
+
+/* Submit button */
+.submit-button {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.submit-button button {
+    padding: 12px 30px;
+    background-color: #6A00A7;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}

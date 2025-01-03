@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap');
+
+.by-pain-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 1080px;
+}
+  
+.by-pain-card {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 1080px; 
+    height: 1637px;
+}
+  
+.by-pain-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+  
+.by-pain-header h2 {
+    font-size: 39px;
+    font-weight: bold;
+}
+  
+.filter-buttons {
+    display: flex;
+    gap: 10px;
+}
+  
+.filter-btn {
+    background-color:#fff;
+    border: 1px;
+    color: #6a00a7;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border-color: #6a00a7;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+  
+.filter-btn.active {
+    background-color: #D9B0F1;
+    color: #6a00a7;
+}
+  
+.pain-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+}
+  
+.pain-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    width: 310px;
+    height: 348px;
+}
+  
+
+  
+.pain-image {
+    width: 278px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+  
+  .pain-title {
+    font-size: 26px;
+    font-weight: 600;
+    margin: 30px 0 20px;
+    color: #484848;
+}
+  
+.view-btn {
+    background-color: #D9B0F1;
+    color: #6a00a7;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.2s ease-in-out;
+    width: 278px;
+    height: 58px;
+}
+  
+.view-btn:hover {
+    background-color:#D9B0F1;
+}
