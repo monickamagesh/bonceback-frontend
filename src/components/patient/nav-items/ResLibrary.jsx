@@ -25,7 +25,7 @@ const ResLib = ({ videos }) => {
                 <span className="reslib-duration">{video.duration}</span>
                 <span className="reslib-time">{video.timeAgo}</span>
               </div>
-              <button className="reslib-play-btn">Play</button>
+              <a href="https://www.youtube.com/watch?v=IODxDxX7oi4"><button className="reslib-play-btn">Play</button></a>
             </div>
           ))}
         </div>
