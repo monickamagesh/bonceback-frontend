@@ -41,12 +41,12 @@ const router = createBrowserRouter([
           { path: "", element: <ByPain /> },
           { path: "pain", element: <ByPain />,
             children: [
-              { path: "top-therapist", element: <TopTherapist /> },
+              { path: "/top-therapist", element: <TopTherapist /> },
             ]
             },
           { path: "specialization", element: <BySpecialization />,
             children: [
-              { path: "top-therapist", element: <TopTherapist /> },
+              { path: "/top-therapist", element: <TopTherapist /> },
             ] },
           { path: "top-therapist", element: <TopTherapist /> },
 
@@ -78,11 +78,11 @@ const router = createBrowserRouter([
           { path: "", element: <ByPain /> },
           { path: "pain", element: <ByPain />,
             children: [
-              { path: "top-therapist", element: <TopTherapist /> },
+              { path: "/top-therapist", element: <TopTherapist /> },
             ] },
           { path: "specialization", element: <BySpecialization />,
             children: [
-              { path: "top-therapist", element: <TopTherapist /> },
+              { path: "/top-therapist", element: <TopTherapist /> },
             ] },
           { path: "top-therapist", element: <TopTherapist /> },
 
