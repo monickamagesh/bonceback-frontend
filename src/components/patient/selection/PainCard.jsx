@@ -1,5 +1,6 @@
 import React from "react";
 import '../../../pages/patient/selection/bypain.css';
+import { Link } from "react-router-dom"
 
 const PainCard = ({ image, title }) => {
   return (
